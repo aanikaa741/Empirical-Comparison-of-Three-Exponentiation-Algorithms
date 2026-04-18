@@ -17,9 +17,35 @@ Algorithm Description
 Modular exponentiation computes (aⁿ) mod m using the same divide-and-conquer squaring strategy as Algorithm 2, with one critical addition: every multiplication is immediately followed by a modular reduction. By applying mod m after each operation, all intermediate values are bounded by m², ensuring that no number ever exceeds a fixed size regardless of how large n or a becomes.
 
 Experiment 1 — Runtime vs Exponent Value
-
 Experiment 2 — Large Exponent Scalability
-
 Experiment 3 — Theoretical Complexity Validation
-
 Experiment 4 - Effect of Base Value
+
+Technologies Used
+- Python 3
+- Libraries:
+  - numpy
+  - matplotlib
+  - statistics
+  - time
+
+How to Run
+1. Clone the repository:
+   https://github.com/aanikaa741/Empirical-Comparison-of-Three-Exponentiation-Algorithms
+2. Navigate to the project folder:
+   cd Empirical-Comparison-of-Three-Exponentiation-Algorithms
+3. Install required libraries:
+   pip install numpy matplotlib
+4. Run the program:
+   python exponentiation_final.py
+
+Features
+- Implementation of three exponentiation algorithms
+- Time complexity comparison (O(n) vs O(log n))
+- 4 experiments analyzing performance
+- 7 graphs visualizing results
+- CSV export of experimental data
+
+Author
+Anika Nayak
+Harshini Manimaran
