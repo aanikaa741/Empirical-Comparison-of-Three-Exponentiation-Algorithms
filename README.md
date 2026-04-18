@@ -17,6 +17,9 @@ Algorithm Description
 Modular exponentiation computes (aⁿ) mod m using the same divide-and-conquer squaring strategy as Algorithm 2, with one critical addition: every multiplication is immediately followed by a modular reduction. By applying mod m after each operation, all intermediate values are bounded by m², ensuring that no number ever exceeds a fixed size regardless of how large n or a becomes.
 
 Experiment 1 — Runtime vs Exponent Value
+
 Experiment 2 — Large Exponent Scalability
+
 Experiment 3 — Theoretical Complexity Validation
+
 Experiment 4 - Effect of Base Value
