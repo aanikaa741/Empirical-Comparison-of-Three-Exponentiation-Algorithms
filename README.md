@@ -47,5 +47,7 @@ Features
 - CSV export of experimental data
 
 Author
+
 Anika Nayak
+
 Harshini Manimaran
